@@ -25,6 +25,8 @@ public class BallController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
         respawn = transform.position;
+
+        //Physics2D.queriesStartInColliders = false;
     }
 
     void Update()
